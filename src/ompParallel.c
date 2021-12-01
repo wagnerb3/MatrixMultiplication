@@ -5,7 +5,7 @@ int main()
 {
         double begin, end;
         begin = omp_get_wtime();
-  int m, n, p, q, c, d, k, sum = 0;
+  int c, d, k, sum = 0;
   int first[DIM][DIM], second[DIM][DIM], multiply[DIM][DIM];
 
     #pragma omp parallel for
